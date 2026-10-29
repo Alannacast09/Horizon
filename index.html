@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Horizon Audiovisual — Seu horizonte em foco.">
+    <title>Horizon Audiovisual | Seu horizonte em foco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>[hidden] { display: none !important; } .optional-service { margin-block: 12px; }</style>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="brand" href="#inicio">
+            <img src="IMG/logo.PNG" alt="Logo horizon">
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+        <nav id="nav"><a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#portfolio">Portfólio</a><a
+                href="#servicos">Serviços</a><a href="#planos">Planos</a><a class="nav-cta" href="#contato">Fale conosco
+                ↗</a></nav>
+    </header>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow">— IMAGENS QUE CONECTAM HISTÓRIAS</p>
+                <h1>Seu horizonte<br>em <span>foco.</span></h1>
+                <p class="hero-copy">Transformamos momentos em registros que emocionam, aproximam pessoas e mantêm
+                    histórias vivas.</p>
+                <div class="actions"><a class="button orange" href="#portfolio">Explorar portfólio ↗</a><a
+                        class="button ghost" href="#planos">Solicitar orçamento →</a></div>
+                <p class="hero-caption">● FOTOGRAFIA · VÍDEO · EXPERIÊNCIAS</p>
+            </div>
+            <div class="vertical">HORIZON AUDIOVISUAL — SEU HORIZONTE EM FOCO</div>
+        </section>
+        <section class="section intro" id="sobre">
+            <p class="kicker">01 / SOBRE A HORIZON</p>
+            <div class="intro-grid">
+                <h2>Mais do que registrar.<br><span>É dar sentido ao que fica.</span></h2>
+                <div>
+                    <p>A Horizon é uma empresa audiovisual dedicada a registrar, produzir e valorizar histórias por meio
+                        de imagens e vídeos. De eventos especiais a projetos profissionais, cada trabalho é pensado para
+                        comunicar com autenticidade.</p>
+                    <p>Unimos olhar criativo, cuidado nos detalhes e soluções personalizadas para que cada projeto tenha
+                        a sua própria identidade.</p><a class="text-link" href="#diferenciais">Conheça nosso jeito de
+                        fazer ↘</a>
+                </div>
+            </div>
+        </section>
+        <section class="section values" id="diferenciais">
+            <p class="kicker">02 / NOSSA ESSÊNCIA</p>
+            <h2>O que faz da Horizon<br><span>a escolha certa?</span></h2>
+            <p class="section-lead">Da concepção à entrega, reunimos criatividade, versatilidade e organização para transformar ideias em produções audiovisuais alinhadas a cada projeto.</p>
+            <div class="value-grid">
+                <article><small>01</small><i>◇</i>
+                    <h3>Ética e transparência</h3>
+                    <p>Relações honestas, alinhamentos claros e respeito em cada etapa.</p>
+                </article>
+                <article><small>02</small><i>◎</i>
+                    <h3>Foco no cliente</h3>
+                    <p>Mantemos uma comunicação próxima e transparente, considerando as expectativas do cliente em todas as etapas do atendimento.</p>
+                </article>
+                <article><small>03</small><i>↗</i>
+                    <h3>Compromisso</h3>
+                    <p>Responsabilidade com os combinados, a organização e os prazos acordados.</p>
+                </article>
+                <article><small>04</small><i>✳</i>
+                    <h3>Criatividade</h3>
+                    <p>Soluções visuais que respeitam a identidade de cada história.</p>
+                </article>
+            </div>
+            <div class="mission">
+                <div><label>SOLUÇÕES SOB MEDIDA</label>
+                    <p>Projetos estruturados conforme as características de cada demanda, considerando o formato, os recursos necessários e os objetivos da produção.</p>
+                </div>
+                <div><label>VERSATiliDADE DE PRODUÇÃO</label>
+                    <p>Diferentes formatos, técnicas e recursos para atender a projetos que vão da cobertura de eventos à criação de conteúdos, animações e produções em estúdio.</p>
+                </div>
+            </div>
+        </section>
+        
+<section class="section portfolio" id="portfolio">
+    <p class="kicker">03 / PORTFÓLIO</p>
+
+    <div class="heading-row">
+        <div>
+            <h2>Histórias em <span>perspectiva.</span></h2>
+            <p>Um olhar sobre momentos, pessoas e projetos que merecem ser lembrados.</p>
+        </div>
+        <small>TRABALHOS SELECIONADOS ↘</small>
+    </div>
+
+    <div class="portfolio-grid">
+        <article class="portfolio-card big"
+            onclick="abrirGaleria('gincalculando')"
+            role="button" tabindex="0"
+            onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();abrirGaleria('gincalculando')}">
+            <img src="imagens/portfolio/gincalculando/capa.PNG"
+                alt="Cobertura do Gincalculando">
+            <div>
+                <label>EVENTO ESCOLAR</label>
+                <h3>Gincalculando</h3>
+                <p>Competição, criatividade e momentos marcantes.</p>
+                <span class="portfolio-link">Ver cobertura ↗</span>
+            </div>
+        </article>
+
+        <article class="portfolio-card"
+            onclick="abrirGaleria('desfile')"
+            role="button" tabindex="0"
+            onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();abrirGaleria('desfile')}">
+            <img src="imagens/portfolio/desfile-civico/capa.jpg"
+                alt="Cobertura do Desfile Cívico">
+            <div>
+                <label>COBERTURA</label>
+                <h3>Desfile Cívico</h3>
+                <p>Os detalhes e os momentos da celebração.</p>
+                <span class="portfolio-link">Ver cobertura ↗</span>
+            </div>
+        </article>
+
+        <article class="portfolio-card"
+            onclick="abrirGaleria('saojoao')"
+            role="button" tabindex="0"
+            onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();abrirGaleria('saojoao')}">
+            <img src="imagens/portfolio/sao-joao/capa.jpg"
+                alt="Cobertura do São João">
+            <div>
+                <label>FESTIVIDADE</label>
+                <h3>São João</h3>
+                <p>Cultura, apresentações e celebração.</p>
+                <span class="portfolio-link">Ver cobertura ↗</span>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- Janela das galerias -->
+<div class="gallery-modal" id="galleryModal"
+    role="dialog" aria-modal="true"
+    aria-label="Galeria de fotografias" aria-hidden="true">
+
+    <div class="gallery-panel">
+        <div class="gallery-header">
+            <div>
+                <p class="kicker">PORTFÓLIO HORIZON</p>
+                <h2 id="galleryTitle">Cobertura do evento</h2>
+            </div>
+            <button type="button" class="gallery-close"
+                onclick="fecharGaleria()" aria-label="Fechar galeria">✕</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+</div>
+
+<!-- Visualização ampliada da fotografia -->
+<div class="photo-viewer" id="photoViewer"
+    aria-hidden="true">
+    <button type="button" class="viewer-close"
+        onclick="fecharFoto()" aria-label="Fechar fotografia">✕</button>
+    <button type="button" class="viewer-arrow prev"
+        onclick="mudarFoto(-1)" aria-label="Fotografia anterior">‹</button>
+    <img id="expandedPhoto" src="" alt="Fotografia ampliada">
+    <button type="button" class="viewer-arrow next"
+        onclick="mudarFoto(1)" aria-label="Próxima fotografia">›</button>
+    <p id="photoCounter"></p>
+</div>
+
+
+        </section>
+        <section class="section services" id="servicos">
+            <p class="kicker">04 / O QUE FAZEMOS</p>
+            <div class="heading-row">
+                <h2>Nossos <span>serviços.</span></h2>
+                <p>Soluções audiovisuais para registrar, criar e valorizar cada projeto — com atenção ao que torna sua
+                    história única.</p>
+            </div>
+            <div class="service-grid">
+                <article><small>01</small><i>▧</i>
+                    <h3>Cobertura de eventos</h3>
+                    <p>Fotografia e vídeo para eventos sociais, escolares, culturais e corporativos, com atenção aos
+                        momentos importantes.</p><a href="#planos">Ver opções ↗</a>
+                </article>
+                <article><small>02</small><i>◉</i>
+                    <h3>Estúdio fotográfico e audiovisual</h3>
+                    <p>Ensaios fotográficos e produções audiovisuais em estúdio, desenvolvidos para diferentes objetivos e estilos.</p><a
+                        href="#planos">Ver opções ↗</a>
+                </article>
+                <article><small>03</small><i>▷</i>
+                    <h3>Edição de fotos e vídeos</h3>
+                    <p>Tratamento, montagem e pós-produção de materiais audiovisuais, com opções de edição padrão, estética personalizada e restauração de fotografias.</p><a
+                        href="#planos">Ver opções ↗</a>
+                </article>
+                <article><small>04</small><i>⌁</i>
+                    <h3>Captação aérea com drone</h3>
+                    <p>Imagens aéreas que ampliam as possibilidades de enquadramento e oferecem novas perspectivas para cada produção.</p><a
+                        href="#planos">Ver opções ↗</a>
+                </article>
+                <article><small>05</small><i>⟲</i>
+                    <h3>Entrevistas</h3>
+                    <p>Captação de entrevistas, relatos e depoimentos para registrar experiências, apresentar pessoas e transmitir ideias.</p>
+                    <a href="#planos">Ver opções ↗</a>
+                </article>
+                <article><small>06</small><i>✳</i>
+                    <h3>Animação</h3>
+                    <p>Criação de animações que destacam os momentos mais marcantes de cada evento, transformando registros especiais em lembranças criativas e tornando a cobertura audiovisual ainda mais memorável.</p>
+                    <a href="#planos">Ver opções ↗</a>
+                </article>
+            </div>
+            <div class="addon"><b>✦</b>
+                <div><label>POSSIBILIDADES DE PRODUÇÃO</label>
+                    <h3>Produções além do convencional.</h3>
+                    <p>Recursos técnicos e criativos que expandem as possibilidades da fotografia e do audiovisual.</p>
+                </div>
+                <div class="addon-decoracao" aria-hidden="true">
+                    <span class="anel anel-1"></span>
+                    <span class="anel anel-2"></span>
+                    <span class="anel anel-3"></span>
+                    <span class="linha linha-horizontal"></span>
+                    <span class="linha linha-vertical"></span>
+                    <span class="centro"></span>
+                </div>
+            </div>
+        </section>
+        <section class="section plans" id="planos">
+            <p class="kicker">05 / PLANOS E ORÇAMENTOS</p>
+            <div class="heading-row">
+                <div>
+                    <h2>Encontre o plano<br><span>para sua ocasião.</span></h2>
+                    <p>Escolha uma categoria para explorar as opções disponíveis.</p>
+                </div><label class="estimate-label">VALORES DEMONSTRATIVOS</label>
+            </div>
+            <div class="tabs"><button class="active" data-category="eventos">Cobertura de eventos</button><button
+                    data-category="estudio">Estúdio</button><button data-category="edicao">Edição</button></div>
+            <div class="plans-grid" id="plansGrid" aria-label="Planos disponíveis"></div>
+            <div class="compare"><button id="compareToggle">Comparar os planos <span>＋</span></button>
+                <div id="compareHolder" hidden></div>
+            </div>
+            <div class="custom-budget">
+                <div><label>FEITO PARA VOCÊ</label>
+                    <h2>Monte seu orçamento.</h2>
+                    <p>Selecione o que precisa e veja uma estimativa inicial. A equipe poderá confirmar os detalhes
+                        depois.</p>
+                    <p class="note">Os valores abaixo são fictícios e não representam preços oficiais.</p>
+                </div>
+                <form id="budgetForm">
+                    <label>Tipo de projeto<select id="budgetType">
+                        <option value="eventos">Cobertura de evento</option>
+                        <option value="estudio">Estúdio</option>
+                        <option value="edicao">Edição sem captação</option>
+                    </select></label>
+
+                    <div id="eventFields">
+                        <label>Tipo de evento<select id="eventKind">
+                            <option value="Social">Evento social</option>
+                            <option value="Corporativo">Evento corporativo</option>
+                            <option value="Escolar ou cultural">Evento escolar ou cultural</option>
+                            <option value="Casamento">Casamento</option>
+                            <option value="Outro">Outro</option>
+                        </select></label>
+                        <label>Local do evento (cidade/bairro ou endereço)<input id="eventLocation" type="text" placeholder="Ex.: Centro, Paraipaba - CE"></label>
+                        <p class="note">O local será enviado à equipe para verificar a distância e confirmar eventual taxa de deslocamento. O simulador ainda não calcula rotas automaticamente.</p>
+                    </div>
+
+                    <div class="form-row" id="hoursAndPhotos">
+                        <label>Horas de cobertura<input id="hours" type="number" min="1" max="8" step="1" value="4" required></label>
+                        <label>Quantidade de fotos<input id="photos" type="number" min="0" max="300" step="1" value="100" required></label>
+                    </div>
+                    <div class="form-row">
+                        <label>Quantidade de vídeos<input id="videos" type="number" min="0" max="100" step="1" value="25" required></label>
+                        <label id="photoEditLabel">Edição do material<select id="editStyle">
+                            <option value="padrao">Edição padrão</option>
+                            <option value="personalizada">Edição personalizada</option>
+                        </select></label>
+                    </div>
+                    <div id="customEditFields" hidden>
+                        <label><span class="textarea-title">Descreva a edição personalizada</span><textarea id="editDescription" rows="5" placeholder="Conte sobre a estética, cores, referências ou resultado que deseja."></textarea></label>
+                        <p class="note">A estimativa é inicial. O valor poderá mudar conforme a quantidade de materiais e a complexidade da edição solicitada.</p>
+                    </div>
+
+                    <div id="teamFields">
+                        <p><strong>Equipe para o evento</strong></p>
+                        <div class="form-row">
+                            <label>Fotógrafos<select id="photographers">
+                                <option value="1">1 fotógrafo</option><option value="2">2 fotógrafos</option><option value="3">3 fotógrafos</option><option value="4">4 fotógrafos</option><option value="5">5 fotógrafos</option><option value="6">6 fotógrafos</option>
+                            </select></label>
+                            <label>Videomakers<select id="videographers">
+                                <option value="1">1 videomaker</option><option value="2">2 videomakers</option><option value="3">3 videomakers</option>
+                            </select></label>
+                        </div>
+                    </div>
+
+                    <div class="optional-service">
+                        <label class="check"><input type="checkbox" id="drone"> Adicionar captação com drone</label>
+                        <div id="droneFields" hidden>
+                            <label>Horas de captação com drone<select id="droneHours"><option value="1">1 hora</option><option value="2">2 horas</option><option value="3">3 horas</option><option value="4">4 horas</option><option value="5">5 horas</option><option value="6">6 horas</option><option value="7">7 horas</option><option value="8">8 horas</option></select></label>
+                        </div>
+                    </div>
+                    <div class="optional-service">
+                        <label class="check"><input type="checkbox" id="interview"> Adicionar entrevistas e depoimentos</label>
+                        <div id="interviewFields" hidden>
+                            <label>Quantidade de entrevistas<input id="interviewCount" type="number" min="1" max="50" step="1" value="1" required></label>
+                            <p class="note">Para este teste, cada entrevista usa um valor demonstrativo fixo.</p>
+                        </div>
+                    </div>
+                    <div class="optional-service">
+                        <label class="check"><input type="checkbox" id="animation"> Adicionar animação</label>
+                        <div id="animationFields" hidden>
+                            <label>Duração da animação finalizada (minutos)<input id="animationMinutes" type="number" min="1" max="10" step="1" value="1" required></label>
+                        </div>
+                    </div>
+
+                    <div class="estimate"><span>Estimativa ilustrativa</span><strong id="total">R$ 0,00</strong></div>
+                    <p class="note" id="estimateDetails">O valor não inclui eventual deslocamento, que será confirmado pela equipe.</p>
+                    <button class="button orange full" id="requestWhatsApp" type="button">Solicitar pelo WhatsApp ↗</button>
+                </form>
+            </div>
+            <p class="note">Atenção: todos os preços são provisórios. O orçamento definitivo depende do escopo, local,
+                duração e disponibilidade dos serviços.</p>
+        </section>
+        <section class="contact" id="contato">
+            <div class="contact-watermark">H</div>
+            <div class="section contact-inner">
+                <p class="kicker">06 / VAMOS CONVERSAR</p>
+                <h2>Seu próximo momento<br>começa <span>aqui.</span></h2>
+                <p>Conte um pouco sobre seu projeto. Vamos pensar juntos na melhor forma de registrar sua história.</p>
+                <a class="button orange" href="https://wa.me/5585999250500" target="_blank" rel="noopener">Fale com a
+                    Horizon ↗</a>
+                <div class="contact-grid"><a href="https://www.instagram.com/horizon.fgg?xtok=bHJqeXJwb3dwemx5"
+                        target="_blank" rel="noopener"><small>INSTAGRAM</small><b>@horizon.fgg ↗</b></a><a
+                        href="mailto:contato.horizonaudiovisual@gmail.com"><small>E-MAIL</small><b>contato.horizonaudiovisual@gmail.com
+                            ↗</b></a><a href="https://wa.me/5585999250500" target="_blank"
+                        rel="noopener"><small>WHATSAPP</small><b>+55 (85) 99925-0500 ↗</b></a></div>
+            </div>
+        </section>
+    </main>
+    <footer><a class="brand" href="#inicio">
+        <img src="IMG/logo.PNG" alt="Logo horizon">
+    </a>
+        <p>Histórias ganham novos sentidos quando vistas por outros horizontes.</p><small>© <span id="year"></span>
+            Horizon Audiovisual.</small>
+    </footer>
+
+</body>
+
+</html>
