@@ -18,7 +18,7 @@
 <body>
     <header class="header">
         <a class="brand" href="#inicio">
-            <img src="IMG/logo.png" alt="Logo horizon">
+            <img src="IMG/logo.PNG" alt="Logo horizon">
         </a>
         <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
         <nav id="nav"><a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#portfolio">Portfólio</a><a
@@ -235,7 +235,7 @@
                 <div>
                     <h2>Encontre o plano<br><span>para sua ocasião.</span></h2>
                     <p>Escolha uma categoria para explorar as opções disponíveis.</p>
-                </div><label class="estimate-label">VALORES DEMONSTRATIVOS</label>
+                </div>
             </div>
             <div class="tabs"><button class="active" data-category="eventos">Cobertura de eventos</button><button
                     data-category="estudio">Estúdio</button><button data-category="edicao">Edição</button></div>
@@ -249,6 +249,21 @@
                     <p>Selecione o que precisa e veja uma estimativa inicial. A equipe poderá confirmar os detalhes
                         depois.</p>
                     <p class="note">Os valores abaixo são fictícios e não representam preços oficiais.</p>
+
+
+                    
+                <div class="custom-solution">
+                    <h3>Uma solução sob medida para você</h3>
+
+                    <p>
+                        Se o simulador não atender às suas necessidades, entre em contato
+                        com a equipe Horizon. Vamos entender melhor o seu projeto e preparar
+                        uma proposta personalizada, considerando os serviços que você precisa
+                        e o investimento inicial. Os detalhes e valores poderão ser confirmados
+                        diretamente com nossa equipe.
+                    </p>
+                </div>
+
                 </div>
                 <form id="budgetForm">
                     <label>Tipo de projeto<select id="budgetType">
@@ -270,7 +285,7 @@
                     </div>
 
                     <div class="form-row" id="hoursAndPhotos">
-                        <label>Horas de cobertura<input id="hours" type="number" min="1" max="8" step="1" value="4" required></label>
+                        <label>Horas de cobertura<input id="hours" type="number" min="1" max="8" step="1" value="4" required onfocus="this.select()"></label>
                         <label>Quantidade de fotos<input id="photos" type="number" min="0" max="300" step="1" value="100" required></label>
                     </div>
                     <div class="form-row">
@@ -283,18 +298,6 @@
                     <div id="customEditFields" hidden>
                         <label><span class="textarea-title">Descreva a edição personalizada</span><textarea id="editDescription" rows="5" placeholder="Conte sobre a estética, cores, referências ou resultado que deseja."></textarea></label>
                         <p class="note">A estimativa é inicial. O valor poderá mudar conforme a quantidade de materiais e a complexidade da edição solicitada.</p>
-                    </div>
-
-                    <div id="teamFields">
-                        <p><strong>Equipe para o evento</strong></p>
-                        <div class="form-row">
-                            <label>Fotógrafos<select id="photographers">
-                                <option value="1">1 fotógrafo</option><option value="2">2 fotógrafos</option><option value="3">3 fotógrafos</option><option value="4">4 fotógrafos</option><option value="5">5 fotógrafos</option><option value="6">6 fotógrafos</option>
-                            </select></label>
-                            <label>Videomakers<select id="videographers">
-                                <option value="1">1 videomaker</option><option value="2">2 videomakers</option><option value="3">3 videomakers</option>
-                            </select></label>
-                        </div>
                     </div>
 
                     <div class="optional-service">
@@ -342,7 +345,7 @@
         </section>
     </main>
     <footer><a class="brand" href="#inicio">
-        <img src="IMG/logo.png" alt="Logo horizon">
+        <img src="IMG/logo.PNG" alt="Logo horizon">
     </a>
         <p>Histórias ganham novos sentidos quando vistas por outros horizontes.</p><small>© <span id="year"></span>
             Horizon Audiovisual.</small>
